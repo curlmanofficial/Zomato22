@@ -8,7 +8,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-    origin: "https://zomato22-frontend.onrender.com",
+    origin: "https://zomato22-5gec1cvre-curlmanofficial-gmailcoms-projects.vercel.app/",
     credentials: true
 }));
 app.use(cookieParser());
